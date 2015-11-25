@@ -2601,6 +2601,7 @@ textarea.form-control {
 }
 input[type="search"] {
   -webkit-appearance: none;
+  -moz-appearance: none;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type="date"].form-control,
@@ -5851,6 +5852,8 @@ button.close {
   background: transparent;
   border: 0;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .modal-open {
   overflow: hidden;
@@ -6256,12 +6259,14 @@ button.close {
   .carousel-inner > .item.next,
   .carousel-inner > .item.active.right {
     -webkit-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     left: 0;
   }
   .carousel-inner > .item.prev,
   .carousel-inner > .item.active.left {
     -webkit-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     left: 0;
   }
@@ -6269,6 +6274,7 @@ button.close {
   .carousel-inner > .item.prev.right,
   .carousel-inner > .item.active {
     -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     left: 0;
   }
