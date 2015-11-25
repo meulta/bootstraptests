@@ -9,6 +9,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 body {
   margin: 0;
@@ -95,6 +96,7 @@ figure {
 }
 hr {
   box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   height: 0;
 }
 pre {
@@ -128,6 +130,8 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
   cursor: pointer;
 }
 button[disabled],
